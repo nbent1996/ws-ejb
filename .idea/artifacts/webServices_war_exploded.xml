@@ -1,0 +1,34 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="webServices:war exploded">
+    <output-path>$PROJECT_DIR$/target/webServices</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>webServices</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="webServices" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.jboss.spec.javax.annotation:jboss-annotations-api_1.3_spec:2.0.1.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.spec.javax.ejb:jboss-ejb-api_3.2_spec:2.0.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.3_spec:2.0.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.spec.javax.xml.ws:jboss-jaxws-api_2.3_spec:2.0.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:2.0.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.spec.javax.xml.soap:jboss-saaj-api_1.4_spec:1.0.0.Final" />
+          <element id="library" level="project" name="Maven: jakarta.activation:jakarta.activation-api:1.2.1" />
+          <element id="library" level="project" name="Maven: jakarta.jws:jakarta.jws-api:2.1.0" />
+          <element id="library" level="project" name="Maven: javax.jws:jsr181-api:1.0-MR1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/webServices/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="webServices/web/Web" />
+    </root>
+  </artifact>
+</component>

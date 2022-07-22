@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="CalculatorWsSecurity" targetNamespace="http://ws/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://ws/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <wsdl:message name="multiplicacion">
+    <wsdl:part name="arg0" type="xsd:int">
+    </wsdl:part>
+    <wsdl:part name="arg1" type="xsd:int">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="multiplicacionResponse">
+    <wsdl:part name="return" type="xsd:int">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="CalculatorWsSecurity">
+    <wsdl:operation name="multiplicacion">
+      <wsdl:input name="multiplicacion" message="tns:multiplicacion">
+    </wsdl:input>
+      <wsdl:output name="multiplicacionResponse" message="tns:multiplicacionResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CalculatorWsSecuritySoapBinding" type="tns:CalculatorWsSecurity">
+    <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="multiplicacion">
+      <soap:operation soapAction="" style="rpc"/>
+      <wsdl:input name="multiplicacion">
+        <soap:body use="literal" namespace="http://ws/"/>
+      </wsdl:input>
+      <wsdl:output name="multiplicacionResponse">
+        <soap:body use="literal" namespace="http://ws/"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CalculatorWsSecurity">
+    <wsdl:port name="calculator" binding="tns:CalculatorWsSecuritySoapBinding">
+      <soap:address location="http://192.168.10.2:8087//services/ws/CalculatorWsSecurity"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="webServices:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97ceb4aa-baa5-471a-82ff-181d32c58bee" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2CFsXbg5eLAWjEtUvTnLFyRqDUW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15332031" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="xpath.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Mega\Trabajo\Trabajo Atos-Antel\Proyectos\Prototipos\ws-security\src\main\java" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ws" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CalculatorWsSecurity">
+    <configuration name="CalculatorWsSecurity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ws.CalculatorWsSecurity" />
+      <module name="webServices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ws.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JBoss 26.1.1.Final" type="JBossConfiguration" factoryName="Remote" APPLICATION_SERVER_NAME="JBoss 26.1.1.Final" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="HOST" value="10.97.68.53" />
+      <option name="PORT" value="8087" />
+      <option name="LOCAL" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://10.97.68.53:8087" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="credentialAlias" value="6fdb1021-a3de-4b57-a94c-5e53c4f092fb" />
+          <option name="managementPort" value="9997" />
+          <option name="serverGroup" value="" />
+          <option name="stagingRemotePath" value="" />
+          <option name="transportHostId" />
+          <option name="transportStagingTarget">
+            <TransportTarget>
+              <option name="id" value="2da78d8b-16a7-4fe6-b420-a0f350ac5ed1" />
+              <id>2da78d8b-16a7-4fe6-b420-a0f350ac5ed1</id>
+            </TransportTarget>
+          </option>
+          <option name="username" value="pcf" />
+          <username>pcf</username>
+          <credential-alias>6fdb1021-a3de-4b57-a94c-5e53c4f092fb</credential-alias>
+          <management-port>9997</management-port>
+          <server-group />
+          <transport-target>
+            <TransportTarget>
+              <option name="id" value="2da78d8b-16a7-4fe6-b420-a0f350ac5ed1" />
+              <id>2da78d8b-16a7-4fe6-b420-a0f350ac5ed1</id>
+            </TransportTarget>
+          </transport-target>
+          <staging-path />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56130" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CalculatorWsSecurity" />
+      <item itemvalue="JBoss Server.JBoss 26.1.1.Final" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Failed" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97ceb4aa-baa5-471a-82ff-181d32c58bee" name="Default Changelist" comment="" />
+      <created>1658409707442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658409707442</updated>
+      <workItem from="1658409708954" duration="5822000" />
+      <workItem from="1658418098794" duration="11657000" />
+      <workItem from="1658492832905" duration="2110000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1140" y="147" key="#Project_Structure" timestamp="1658431059147">
+      <screen x="-1600" y="0" width="1600" height="860" />
+    </state>
+    <state x="-1140" y="147" key="#Project_Structure/0.0.1920.1040/-1600.0.1600.860@-1600.0.1600.860" timestamp="1658431059147" />
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658410153427" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1658411230831">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658411230831" />
+    <state x="590" y="209" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1658414765452">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="590" y="209" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658414765452" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1658429397113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658429397113" />
+    <state x="718" y="432" width="500" height="279" key="#com.intellij.ws.actions.GenerateWsdlFromJavaDialog" timestamp="1658417969901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="718" y="432" width="500" height="279" key="#com.intellij.ws.actions.GenerateWsdlFromJavaDialog/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658417969901" />
+    <state x="-941" y="352" key="#com.intellij.ws.actions.ShowDeployedWebSevicesDialog" timestamp="1658419707089">
+      <screen x="-1600" y="0" width="1600" height="860" />
+    </state>
+    <state x="-941" y="352" key="#com.intellij.ws.actions.ShowDeployedWebSevicesDialog/0.0.1920.1040/-1600.0.1600.860@-1600.0.1600.860" timestamp="1658419707089" />
+    <state x="1157" y="345" key="FileChooserDialogImpl" timestamp="1658425838519">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-636" y="285" key="FileChooserDialogImpl/0.0.1920.1040/-1600.0.1600.860@-1600.0.1600.860" timestamp="1658419603174" />
+    <state x="1157" y="345" key="FileChooserDialogImpl/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658425838519" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1658415086622">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658415086622" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1658415086622">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658415086622" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1658415086622">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658415086622" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1658415086622">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658415086622" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1658425813777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658425813777" />
+    <state x="-1153" y="45" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1658421411100">
+      <screen x="-1600" y="0" width="1600" height="860" />
+    </state>
+    <state x="-1153" y="45" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1600.0.1600.860@-1600.0.1600.860" timestamp="1658421411100" />
+  </component>
+</project>
