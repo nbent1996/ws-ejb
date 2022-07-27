@@ -6,13 +6,12 @@ import javax.jws.WebMethod;
 import javax.jws.WebParam;
 import javax.jws.WebService;
 import javax.jws.soap.SOAPBinding;
-import javax.xml.ws.Endpoint;
 
 @Stateless
 @WebService(serviceName="CalculatorWsSecurity")
 @SOAPBinding(style=SOAPBinding.Style.RPC)
-@Remote(ICalculatorWsSecurity.class)
-public class CalculatorWsSecurity implements ICalculatorWsSecurity {
+@Remote(ICalculator.class)
+public class Calculator implements ICalculator {
 
     @WebMethod(operationName="multiplicacion")
     @Override

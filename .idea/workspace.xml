@@ -6,7 +6,25 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97ceb4aa-baa5-471a-82ff-181d32c58bee" name="Default Changelist" comment="" />
+    <list default="true" id="97ceb4aa-baa5-471a-82ff-181d32c58bee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/CalculatorSoapHandler.handlerjava" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ws/CalculatorWsSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ws/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ws/ICalculatorWsSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ws/ICalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CalculatorWsSecurity.wsdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ws/CalculatorWsSecurity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ws/ICalculatorWsSecurity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webServices-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/web/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/CalculatorWsSecurity.wsdl" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +33,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2CFsXbg5eLAWjEtUvTnLFyRqDUW" />
   <component name="ProjectViewState">
@@ -28,6 +49,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -37,20 +59,22 @@
     <property name="settings.editor.selected.configurable" value="xpath.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Mega\Trabajo\Trabajo Atos-Antel\Proyectos\Prototipos\ws-security\src\main\java" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ws" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Mega\Trabajo\Trabajo Atos-Antel\Proyectos\Prototipos\ws-ejb\src\main\resources" />
+      <recent name="C:\Mega\Trabajo\Trabajo Atos-Antel\Proyectos\Prototipos\ws-ejb\src\main\java\ws" />
+      <recent name="C:\Mega\Trabajo\Trabajo Atos-Antel\Proyectos\Prototipos\ws-security\src\main\java" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.CalculatorWsSecurity">
-    <configuration name="CalculatorWsSecurity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ws.CalculatorWsSecurity" />
+  <component name="RunManager" selected="Application.Calculator">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ws.Calculator" />
       <module name="webServices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ws.*" />
+          <option name="PATTERN" value="wsSecurity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,7 +125,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CalculatorWsSecurity" />
+      <item itemvalue="Application.Calculator" />
       <item itemvalue="JBoss Server.JBoss 26.1.1.Final" />
     </list>
   </component>
@@ -140,6 +164,11 @@
       <workItem from="1658409708954" duration="5822000" />
       <workItem from="1658418098794" duration="11657000" />
       <workItem from="1658492832905" duration="2110000" />
+      <workItem from="1658500780886" duration="3168000" />
+      <workItem from="1658752691195" duration="11050000" />
+      <workItem from="1658840974530" duration="14730000" />
+      <workItem from="1658924807373" duration="3691000" />
+      <workItem from="1658938889861" duration="185000" />
     </task>
     <servers />
   </component>
@@ -156,14 +185,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658411230831" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1658851922199">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658851922199" />
     <state x="590" y="209" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1658414765452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="209" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658414765452" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1658429397113">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1658852324096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658429397113" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658852324096" />
     <state x="718" y="432" width="500" height="279" key="#com.intellij.ws.actions.GenerateWsdlFromJavaDialog" timestamp="1658417969901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -172,27 +205,31 @@
       <screen x="-1600" y="0" width="1600" height="860" />
     </state>
     <state x="-941" y="352" key="#com.intellij.ws.actions.ShowDeployedWebSevicesDialog/0.0.1920.1040/-1600.0.1600.860@-1600.0.1600.860" timestamp="1658419707089" />
-    <state x="1157" y="345" key="FileChooserDialogImpl" timestamp="1658425838519">
+    <state x="1157" y="345" key="FileChooserDialogImpl" timestamp="1658772895948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-636" y="285" key="FileChooserDialogImpl/0.0.1920.1040/-1600.0.1600.860@-1600.0.1600.860" timestamp="1658419603174" />
-    <state x="1157" y="345" key="FileChooserDialogImpl/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658425838519" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1658415086622">
+    <state x="1157" y="345" key="FileChooserDialogImpl/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658772895948" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1658863874228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658415086622" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1658415086622">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658863874228" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1658863874228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658415086622" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1658415086622">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658863874228" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1658863874228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658415086622" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1658415086622">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658863874228" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1658863874228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658415086622" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658863874228" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1658851351777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658851351777" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1658425813777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -201,5 +238,17 @@
       <screen x="-1600" y="0" width="1600" height="860" />
     </state>
     <state x="-1153" y="45" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1600.0.1600.860@-1600.0.1600.860" timestamp="1658421411100" />
+    <state x="113" y="435" width="1143" height="711" key="dock-window-1" timestamp="1658851167965">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="113" y="435" width="1143" height="711" key="dock-window-1/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658851167965" />
+    <state x="-1509" y="-13" width="1143" height="711" maximized="true" key="dock-window-2" timestamp="1658859789491">
+      <screen x="-1600" y="0" width="1600" height="860" />
+    </state>
+    <state x="-1509" y="-13" width="1143" height="711" maximized="true" key="dock-window-2/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658859789491" />
+    <state x="342" y="103" key="new project wizard" timestamp="1658928872251">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="103" key="new project wizard/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1658928872251" />
   </component>
 </project>

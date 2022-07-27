@@ -1,0 +1,116 @@
+import javax.xml.namespace.QName;
+import javax.xml.soap.*;
+import javax.xml.ws.handler.MessageContext;
+import javax.xml.ws.handler.soap.SOAPHandler;
+import javax.xml.ws.handler.soap.SOAPMessageContext;
+import javax.xml.ws.soap.SOAPFaultException;
+import java.io.IOException;
+import java.util.Iterator;
+import java.util.Set;
+
+public class CalculatorSoapHandler implements SOAPHandler<SOAPMessageContext> {
+    private static final String WSSE_NS_URI = "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd";
+    private static final QName QNAME_WSSE_USERNAMETOKEN = new QName(WSSE_NS_URI, "UsernameToken");
+    private static final QName QNAME_WSSE_USERNAME = new QName(WSSE_NS_URI, "antel");//Obtener de una property
+    private static final QName QNAME_WSSE_PASSWORD = new QName(WSSE_NS_URI, "antel1234"); //Obtener de una property
+    @Override
+    public Set<QName> getHeaders() {
+        return null;
+    }
+
+    @Override
+    public boolean handleMessage(SOAPMessageContext soapMessageContext) { /*Este metodo se invoca tanto en la solicitud como en la respuesta*/
+        Boolean isResponse = (Boolean) soapMessageContext
+                .get(MessageContext.MESSAGE_OUTBOUND_PROPERTY); /*Si esta property es true indica que este es un mensaje de respuesta y no de solicitud*/
+        if(!isResponse){
+
+        }
+
+        if ((outbound != null) && (!outbound.booleanValue())) {
+            handleInboundMessage(soapMessageContext);
+        }
+        return true;
+    }
+    private void handleInboundMessage(SOAPMessageContext context) {
+        String wsseUsername = null;
+        String wssePassword = null;
+        try {
+            SOAPHeader header = context.getMessage().getSOAPHeader();
+            Iterator<?> headerElements = header.examineAllHeaderElements();
+
+            while (headerElements.hasNext()) {
+                SOAPHeaderElement headerElement = (SOAPHeaderElement) headerElements
+                        .next();
+                //System.out.println(headerElement.getActor() + " " + headerElement.getRole() + " " + headerElement.getValue());
+
+                if (headerElement.getElementName().getLocalName()
+                        .equals("Security")) {
+                    SOAPHeaderElement securityElement = headerElement;
+                    Iterator<?> it2 = securityElement.getChildElements();
+
+                    while (it2.hasNext()) {
+
+                        Node soapNode = (Node) it2.next();
+                        if (soapNode instanceof SOAPElement) {
+                            SOAPElement element = (SOAPElement) soapNode;
+                            QName elementQname = element.getElementQName();
+                            if (QNAME_WSSE_USERNAMETOKEN.equals(elementQname)) {
+                                SOAPElement usernameTokenElement = element;
+                                wsseUsername = getFirstChildElementValue(usernameTokenElement, QNAME_WSSE_USERNAME);
+                                wssePassword = getFirstChildElementValue(usernameTokenElement, QNAME_WSSE_PASSWORD);
+
+                                System.out.println(wsseUsername);
+                                System.out.println(wssePassword);
+                                break;
+                            }
+                        }
+
+                        if (wsseUsername != null) {
+                            break;
+                        }
+                        if(!"antel1234".equalsIgnoreCase(wssePassword)){
+                            generateSOAPErrMessage(context.getMessage(), "access denied");
+                        }
+                    }
+                }
+                context.put("USERNAME", wsseUsername);
+                context.setScope("USERNAME", MessageContext.Scope.APPLICATION);
+
+                context.put("PASSWORD", wssePassword);
+                context.setScope("PASSWORD", MessageContext.Scope.APPLICATION);
+            }
+        } catch (SOAPException e) {
+            System.out.println("Error reading SOAP message context: " + e);
+            e.printStackTrace();
+        }
+
+    }
+    private String getFirstChildElementValue(SOAPElement soapElement, QName qNameToFind) {
+        String value = null;
+        Iterator<?> it = soapElement.getChildElements(qNameToFind);
+        while (it.hasNext()) {
+            SOAPElement element = (SOAPElement) it.next(); //use first
+            value = element.getValue();
+        }
+        return value;
+    }
+    private void generateSOAPErrMessage(SOAPMessage msg, String reason) {
+        try {
+            System.out.println("Generating exception");
+            SOAPBody soapBody = msg.getSOAPPart().getEnvelope().getBody();
+            SOAPFault soapFault = soapBody.addFault();
+            soapFault.setFaultString(reason);
+            throw new SOAPFaultException(soapFault);
+        }
+        catch(SOAPException e) { }
+    }
+    @Override
+    public boolean handleFault(SOAPMessageContext soapMessageContext) {
+        return false;
+    }
+
+    @Override
+    public void close(MessageContext messageContext) {
+
+    }
+}
