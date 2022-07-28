@@ -8,7 +8,7 @@ import javax.jws.WebService;
 import javax.jws.soap.SOAPBinding;
 
 @Stateless
-@WebService(serviceName="CalculatorWsSecurity")
+@WebService(serviceName="Calculator")
 @SOAPBinding(style=SOAPBinding.Style.RPC)
 @Remote(ICalculator.class)
 public class Calculator implements ICalculator {
